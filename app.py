@@ -37,7 +37,7 @@ if st.button("편지 검사하고 보내기"):
                 내용: {content}
                 """
                 response = client.models.generate_content(
-                    model="gemini-1.5-flash",
+                    model="gemini-1.5-flash-latest",
                     contents=prompt
                 )
                 
